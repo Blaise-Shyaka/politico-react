@@ -1,0 +1,23 @@
+.button {
+    color: #2c1169;
+    border: 0.2rem solid #58D1F5;
+    padding: 0.3rem;
+    border-radius: 7px;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+.sign-in {
+    padding: 0.3rem 1.5rem;
+    width: 40%;
+    margin: 1rem;
+    margin-bottom: 0;
+    background-color: #e4e0e0;
+}
+
+@media only screen and (min-width: 500px){
+    .sign-up {
+        padding: 0.3rem 1.5rem;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-bottom: 1rem;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(44, 17, 105);
+}
+
+@media only screen and (min-width: 500px){
+
+}
