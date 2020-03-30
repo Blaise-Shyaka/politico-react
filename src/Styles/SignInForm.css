@@ -1,0 +1,36 @@
+form h3 {
+    color: #2c1169;
+}
+
+form {
+    margin: 0 auto;
+    background-color: #ebebeb;
+    padding: 1rem;
+    margin: 0.8rem;
+    text-align: center;
+}
+
+input {
+    margin: 0.4rem;
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    width: 75%;
+}
+
+@media only screen and (min-width: 500px) {
+    form {
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    form {
+        width: 40%;
+        margin: 0.5rem auto;
+        margin-bottom: 3rem;
+    }
+}
+

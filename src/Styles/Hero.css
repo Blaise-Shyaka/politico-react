@@ -1,0 +1,55 @@
+
+.description {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.description h1 {
+    color: #2c1169;
+    font-size: 1.5rem;
+}
+
+.or {
+    margin: 1.5rem auto;
+}
+
+.get-started {
+    text-decoration: none;
+    color: #2c1169;
+    border: 0.2rem solid #2c1169;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 500px){
+    .get-started {
+        padding: 0.3rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .description h1{
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 2000px){
+    .description h1{
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+

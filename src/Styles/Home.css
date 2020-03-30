@@ -1,0 +1,60 @@
+img {
+    width: 45%;
+    margin: 1rem;
+}
+
+.img-container {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+@media only screen and (min-width: 500px) {
+    .img-container {
+        margin-top: 12%;
+        width: 60%;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .description {
+        width: 55%;
+    }
+
+    .img-container {
+        width: 25%;
+        margin: 0;
+    }
+
+    .hero-form {
+        width: 70%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .or {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 2000px){
+    .hero-form {
+        width: 65%;
+    }
+}
