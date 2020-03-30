@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import ActionButton from './ActionButton';
 import '../Styles/NavBar.css';
 
-function NavBar() {
+function NavBar(props) {
   return (
     <div className="nav">
       <div className="nav-container">
@@ -11,7 +11,7 @@ function NavBar() {
           <h2 className="logo">Politico</h2>
         </Link>
         <Link to="/signup">
-          <ActionButton nameOfClass="sign-up button" text="Sign Up" />
+          <ActionButton nameOfClass={props.nameOfClass} text={props.text} />
         </Link>
       </div>
     </div>
