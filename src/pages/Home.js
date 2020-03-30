@@ -9,7 +9,7 @@ import '../Styles/Home.css';
 const Home = () => {
   return (
     <div className="gen-container">
-      <NavBar />
+      <NavBar nameOfClass="sign-up button" text="Sign up" />
       <div className="container">
         <div className="img-container">
           <img src={heroImg} alt="Hero" />
