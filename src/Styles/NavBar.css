@@ -29,6 +29,10 @@ body {
     color: rgb(44, 17, 105);
 }
 
+.hide {
+    display: none;
+}
+
 @media only screen and (min-width: 500px){
 
 }
