@@ -15,6 +15,11 @@
     background-color: #e4e0e0;
 }
 
+.submit {
+    padding: 0.5rem 2rem;
+    background-color: #e4e0e0;
+}
+
 @media only screen and (min-width: 500px){
     .sign-up {
         padding: 0.3rem 1.5rem;
